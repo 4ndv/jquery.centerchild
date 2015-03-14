@@ -1,1 +1,0 @@
-!function(t){t.fn.centerChild=function(i){return this.each(function(){var s=t(this);content=t(this).children(i).each(function(){t(s).css("position","relative"),t(this).css("position","absolute"),t(this).css("left",(s.width()-t(this).width())/2),t(this).css("top",(s.height()-t(this).height())/2)})})}}(jQuery);
