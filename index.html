@@ -1,9 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>jQuery.centerChild</title>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properities -->
+  <title>jQuery.centerChild.js</title>
+
+  <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="js/jquery.centerchild.js"></script>
+  <script src="js/semantic.js"></script>
+  <script src="js/demo.js"></script>
 </head>
-<body>
-  
+
+<body id="home">
+      <div class="ui inverted vertical segment demo-header">
+        <div class="demo-outer">
+          <div class="demo-inner">
+        <div class="ui page grid centered row">
+          <div class="ui sixteen wide column center aligned">
+            <div>
+              <h1>jQuery.centerChild.js</h1>
+              <a href="https://github.com/andreyviktorov/jquery.centerchild/archive/master.zip" class="ui large button blue inverted">Download</a>
+              <a href="https://github.com/andreyviktorov/jquery.centerchild" class="ui large inverted basic red button">Fork at github</a>
+            </div>
+          </div>
+          <div class="ui eight wide segment column">
+            <h3>Usage:</h3>
+            <p>$(".outer").centerChild(".inner");</p>
+            <h3>Center elements every page resize</h3>
+            <p>
+              $(document).ready(function(){
+              <br/> &nbsp;&nbsp;$(window).resize(function(){
+              <br/> &nbsp;&nbsp;&nbsp;$(".outer").centerChild(".inner");
+              <br/> &nbsp;&nbsp;});
+              <br/> &nbsp;&nbsp;$(window).resize();
+              <br/> });
+              <br/>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
