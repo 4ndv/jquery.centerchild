@@ -1,0 +1,15 @@
+.demo-header {
+  height: 100vh;
+}
+
+.demo-header h1 {
+  font-size: 3em;
+}
+
+.demo-inner {
+  min-width: 100%;
+}
+
+.demo-outer {
+  min-height: 100%;
+}
